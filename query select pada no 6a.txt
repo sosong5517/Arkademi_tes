@@ -1,0 +1,1 @@
+SELECT users.name_user AS name_programmer, COUNT(skils.name_skil)AS jumlah_skil FROM users JOIN skils ON users.id_user=skils.user_id group by users.id_user
